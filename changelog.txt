@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024-08-14
+  Changes:
+    - Roboport back to secondary priority
+    - Electric Turret moved to tertiary priority
+    - Added Lab to tertiary priority

@@ -9,12 +9,12 @@ local pair_priority_entity_types = {
     data.raw["loader-1x1"],
   },
   ["secondary-input"] = {
-    data.raw["electric-turret"],
   },
   ["tertiary"] = {
+    data.raw["electric-turret"],
     data.raw["radar"],
-    data.raw["roboport"],
     data.raw["beacon"],
+    data.raw["lab"],
   },
 }
 
