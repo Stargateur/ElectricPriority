@@ -1,28 +1,11 @@
-local pair_priority_entity_types = {
-  ["primary-input"] = {
-    data.raw["mining-drill"],
-    data.raw["inserter"],
-    data.raw["arithmetic-combinator"],
-    data.raw["decider-combinator"],
-    data.raw["programmable-speaker"],
-    data.raw["loader"],
-    data.raw["loader-1x1"],
-  },
-  ["secondary-input"] = {
-  },
-  ["tertiary"] = {
-    data.raw["electric-turret"],
-    data.raw["radar"],
-    data.raw["beacon"],
-    data.raw["lab"],
-  },
-}
-
-for priority, entity_types in pairs(pair_priority_entity_types) do
-  for _, entities in ipairs(entity_types) do
-    for _, entity in pairs(entities) do
-      if entity.energy_source then
-        entity.energy_source.usage_priority = priority
+for _, entity_types in pairs(require("data")) do
+  for _, entity_type_name in ipairs(entity_types) do
+    local entity_type = data.raw[entity_type_name]
+    if entity_type then
+      for _, entity in pairs(entity_type) do
+        if entity.energy_source then
+          entity.energy_source.usage_priority = settings.startup["electric-priority-" .. entity_type_name].value
+        end
       end
     end
   end
