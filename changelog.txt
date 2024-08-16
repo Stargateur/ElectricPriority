@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2024-08-16
+  Changes:
+    - Separate priority for input, output and input-output
+    - Accumulator are now in secondary priority
+    - Generator are now in tertirary output priority
+    - Roboport, electric turret and lab and all that was in tertiary priority have their output limit set to 0W
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 2024-08-16
   Changes:
