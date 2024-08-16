@@ -10,6 +10,10 @@ return {
   },
   ["secondary-input"] = {
   },
+  ["primary-output"] = {
+  },
+  ["secondary-output"] = {
+  },
   ["tertiary"] = {
     "electric-turret",
     "roboport",

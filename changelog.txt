@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2024-08-16
+  Changes:
+    - Options are not more generic, you can even put entity from other mods
+    - Add locale for options
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2024-08-14
+  Changes:
+    - Roboport moved to tertiary priority
+    - Add options settings for priority
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2024-08-14
   Changes:

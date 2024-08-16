@@ -1,16 +1,13 @@
-
 for priority, entity_types in pairs(require("data")) do
-  for _, entity_type_name in ipairs(entity_types) do
-    data:extend(
+  data:extend(
     {
       {
         type = "string-setting",
-        name = "electric-priority-" .. entity_type_name,
+        name = "electric-priority-" .. priority,
         setting_type = "startup",
-        default_value = priority,
-        allowed_values = {"primary-input", "secondary-input", "tertiary"},
+        default_value = table.concat(entity_types, ","),
+        allow_blank = true,
       },
     }
-    )
-  end
+  )
 end
