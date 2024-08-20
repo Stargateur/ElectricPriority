@@ -15,6 +15,9 @@ return {
   ["secondary-input"] = {
     ["usage_priority"] = "secondary-input",
     ["output_flow_limit"] = "0W",
+    ["default"] = {
+      "electric-turret",
+    },
   },
   ["tertiary-input"] = {
     ["usage_priority"] = "tertiary",
@@ -27,9 +30,6 @@ return {
   ["secondary-output"] = {
     ["usage_priority"] = "secondary-output",
     ["input_flow_limit"] = "0W",
-    ["default"] = {
-      "electric-turret",
-    },
   },
   ["tertiary-output"] = {
     ["usage_priority"] = "tertiary",
