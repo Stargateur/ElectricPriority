@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2024-08-20
+  Changes:
+    - Remove all entities from tertiary input. This was not working as intended with accumulator, also beacon could have efficiency module.
+    - Electric turret are set to secondary priority like the rest of entities of the game
+---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 2024-08-16
   Changes:
