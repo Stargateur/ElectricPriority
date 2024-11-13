@@ -1,4 +1,4 @@
-local string = require('__stdlib__/stdlib/utils/string')
+local string = require('__kry_stdlib__/stdlib/utils/string')
 
 for priority, config in pairs(require("data")) do
   for entity_type_name in string.gmatch(settings.startup["electric-priority-" .. priority].value, "([^,]+)") do

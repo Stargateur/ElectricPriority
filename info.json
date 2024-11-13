@@ -1,9 +1,9 @@
 {
   "name": "ElectricPriority",
-  "version": "0.4.2",
-  "factorio_version": "1.1",
+  "version": "0.5.0",
   "title": "Electric Priority",
   "author": "Stargateur",
-  "dependencies": ["base >= 1.1", "stdlib >= 1.4.8"],
-  "description": "Tired of black-out ? Twerk electric priority"
+  "dependencies": ["base >= 1.1", "kry_stdlib >= 1.5.5"],
+  "description": "Tired of black-out ? Twerk electric priority",
+  "factorio_version": "2.0"
 }
